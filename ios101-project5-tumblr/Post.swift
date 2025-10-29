@@ -20,7 +20,7 @@ struct Post: Decodable {
 
     /// The full blog post caption
     let caption: String
-    let photos: [Photo]
+    let photos: [Photo]?
 }
 
 struct Photo: Decodable {
